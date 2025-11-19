@@ -40,7 +40,6 @@ const deleteProduct = async (id) => {
   };
   
 
-  
 
   return (
     <div className="p-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -48,7 +47,7 @@ const deleteProduct = async (id) => {
       {products.map((product) => (
         <div
           key={product.id}
-          className="max-w-sm bg-white rounded-2xl shadow-md border p-4"
+          className="max-w-sm bg-white rounded-2xl mb-2 shadow-md border p-4"
         >
           
           <div className="h-56 bg-gray-50 flex items-center justify-center rounded-xl">
